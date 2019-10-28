@@ -35,6 +35,9 @@ p{
     background-repeat: no-repeat;
     background-position: center center;
 }
+.inverso::after{
+    background-image: url(../img/separador-inverso.png);
+}
 /* Imagenes de Fondo */
 .imagen-destacada{
     height: 24rem;
@@ -54,6 +57,60 @@ p{
 .nosotros .informacion h3{
     font-weight: 300;
     font-size: 1.6rem;
+}
+/* Blog */
+blockquote.subtitulo{
+    font-size: 1.6rem;
+    color: #303030;
+    font-style: italic;
+    font-weight: 100;
+    border-left: .2rem solid #404cc4;
+}
+.entrada a{
+    color: #404cc4;
+}
+.contenido-entrada .meta p{
+     font-weight: 700;
+}
+.contenido-entrada .meta span{
+     color: #404cc4;;
+}
+.btn-primary{
+    background-color: #404cc4;
+    border-color: #404cc4;
+}
+.btn-primary:hover{
+    background-color: #2734c4;
+    border-color: #2734c4;
+}
+.text-light{
+    color: white!important;
+}
+/* Sidebar */
+.bg-primary{
+    background-color: #404cc4!important;
+}
+aside a,
+aside a:hover{
+    color: #f5f5f5;
+}
+aside .card{
+    border:none;
+}
+aside .card-title{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+aside .card-subtitle{
+    color:#404cc4;
+    font-weight: 400;
+}
+aside .card-footer{
+    background-color: #c7c57d;
+}
+aside .card-footer a{
+    color: black !important;;
 }
 .copyright{
     font-weight: 700;
