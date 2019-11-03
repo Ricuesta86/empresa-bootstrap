@@ -112,6 +112,22 @@ aside .card-footer{
 aside .card-footer a{
     color: black !important;;
 }
+
+/* Servicios */
+.card{
+    margin-bottom: 2rem;
+}
+.badge-secundary{
+    background-color: #c7c57d;
+    color: black;
+}
+.card-title{
+    font-weight: 400;
+}
+.card-subtitle{
+    color: #404cc4;
+    font-weight: 400;
+}
 .copyright{
     font-weight: 700;
 }
