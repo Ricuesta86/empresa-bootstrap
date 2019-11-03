@@ -12,6 +12,23 @@ p{
     line-height: 2rem;
     font-size: 1rem;
 }
+
+.bg-primary, 
+.list-group-item-primary,
+.btn-primary{
+    background-color: #404cc4!important;
+}
+.btn-primary{
+    border-color: #404cc4;
+}
+.badge-secundary,
+.bg-secondary,
+.list-group-item-secondary{
+    background-color: #c7c57d;
+}
+.badge-secundary{
+    color: black;
+}
 .nav-link{
     color: black;
 }
@@ -47,6 +64,10 @@ p{
     background-image: url(../img/principal.jpg);
     background-position-y: center;
 }
+.servicio-bg{
+    background-image: url(../img/1.jpg);
+    background-position-y: center;
+}
 /* Nosotros */
 .contenido-nosotros{
     margin-top: -5rem;
@@ -75,10 +96,7 @@ blockquote.subtitulo{
 .contenido-entrada .meta span{
      color: #404cc4;;
 }
-.btn-primary{
-    background-color: #404cc4;
-    border-color: #404cc4;
-}
+
 .btn-primary:hover{
     background-color: #2734c4;
     border-color: #2734c4;
@@ -87,9 +105,7 @@ blockquote.subtitulo{
     color: white!important;
 }
 /* Sidebar */
-.bg-primary{
-    background-color: #404cc4!important;
-}
+
 aside a,
 aside a:hover{
     color: #f5f5f5;
@@ -117,16 +133,19 @@ aside .card-footer a{
 .card{
     margin-bottom: 2rem;
 }
-.badge-secundary{
-    background-color: #c7c57d;
-    color: black;
-}
+
 .card-title{
     font-weight: 400;
 }
 .card-subtitle{
     color: #404cc4;
     font-weight: 400;
+}
+
+/* Instructor */
+.instructor{
+    font-size: 1.8rem;
+    color: #404cc4;
 }
 .copyright{
     font-weight: 700;
