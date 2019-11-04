@@ -68,6 +68,10 @@ p{
     background-image: url(../img/1.jpg);
     background-position-y: center;
 }
+.contacto-bg{
+    background-image: url(../img/principal2.jpg);
+    /* background-position-y: center; */
+}
 /* Nosotros */
 .contenido-nosotros{
     margin-top: -5rem;
