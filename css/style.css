@@ -21,10 +21,10 @@ p{
 .btn-primary{
     border-color: #404cc4;
 }
-.badge-secundary,
+.badge-secondary,
 .bg-secondary,
 .list-group-item-secondary{
-    background-color: #c7c57d;
+    background-color: #c7c57d!important;
 }
 .badge-secundary{
     color: black;
@@ -55,6 +55,42 @@ p{
 .inverso::after{
     background-image: url(../img/separador-inverso.png);
 }
+
+/* Index */
+.imagen > div{
+    height: 30rem;
+}
+@media (min-width: 768px){
+    .imagen > div{
+        height: 45rem;
+    }
+}
+.bg-imagen1,.bg-imagen2{
+    background-size: cover;
+    background-position: top center;
+}
+.bg-imagen1{
+    background-image: url(../img/principal.jpg);
+}
+.bg-imagen2{
+    background-image: url(../img/principal2.jpg);
+}
+.imagen-superior .contenido{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.imagen-inferior .contenido{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+@media(min-width:768px){
+    .imagen-inferior .bg-secondary{
+        order: 2;
+    }
+}
+body.index .servicios{
+    background-color: #f5f5f5;
+}
 /* Imagenes de Fondo */
 .imagen-destacada{
     height: 24rem;
@@ -71,6 +107,22 @@ p{
 .contacto-bg{
     background-image: url(../img/principal2.jpg);
     /* background-position-y: center; */
+}
+.trabajar{
+    background-image: url(../img/chef_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.trabajar .row{
+    height: 38rem;
+}
+.trabajar .contenido h2{
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+.trabajar .display-4{
+    font-size: 1.8rem;
+    line-height: 3rem;
 }
 /* Nosotros */
 .contenido-nosotros{
